@@ -1,3 +1,7 @@
+/*
+Copyright MIT 2016 Lcf.vs
+https://github.com/Lcfvs/form.cheats
+*/
 void function() {
     'use strict';
 

@@ -1,6 +1,6 @@
 {
   "name": "sizzlify",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "A mini hack to embed Sizzle in nodejs",
   "main": "index.js",
   "scripts": {
