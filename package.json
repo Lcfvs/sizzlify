@@ -1,6 +1,6 @@
 {
   "name": "sizzlify",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "description": "A mini hack to embed Sizzle in nodejs",
   "main": "index.js",
   "scripts": {
@@ -20,5 +20,9 @@
   "bugs": {
     "url": "https://github.com/Lcfvs/sizzlify/issues"
   },
-  "homepage": "https://github.com/Lcfvs/sizzlify#readme"
+  "homepage": "https://github.com/Lcfvs/sizzlify#readme",
+  "dependencies": {
+    "sizzle": "^2.3.0",
+    "xmldom": "^0.1.22"
+  }
 }
