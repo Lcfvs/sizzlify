@@ -1,22 +1,18 @@
-/* eslint-env node */
-
 void function() {
     'use strict';
-   
+
     var
     hack,
-    sizzle,
-    source;
-    
+    sizzle;
+
     hack = 'var window;\
     \
     window = {\
         document: new (require("xmldom").DOMParser)()\
         .parseFromString("<html></html>", "text/html")\
     };';
-    
+
     sizzle = require('fs').readFileSync(require.resolve('sizzle'));
-    source = `${hack}${sizzle}`;
-    
-    module._compile(source, __filename);
+
+    module._compile(hack + sizzle, __filename);
 }();

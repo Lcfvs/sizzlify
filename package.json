@@ -1,0 +1,24 @@
+{
+  "name": "sizzlify",
+  "version": "1.0.0",
+  "description": "A mini hack to embed Sizzle in nodejs",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Lcfvs/sizzlify.git"
+  },
+  "keywords": [
+    "sizzle",
+    "hack",
+    "nodejs"
+  ],
+  "author": "Lcf.vs",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/Lcfvs/sizzlify/issues"
+  },
+  "homepage": "https://github.com/Lcfvs/sizzlify#readme"
+}
