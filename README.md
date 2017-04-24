@@ -1,4 +1,7 @@
 # sizzlify
+[![npm](https://img.shields.io/npm/v/sizzlify.svg?style=plastic)]()
+[![Downloads](https://img.shields.io/npm/dt/sizzlify.svg?style=plastic)]()
+
 A mini hack to embed Sizzle in nodejs, under the MIT licence
 
 ## Install
